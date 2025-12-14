@@ -22,7 +22,7 @@ void setup() {
 }
 
 void printPassword(const char* password) {
-  for (int i = 0; i < strlen(password); i++) {
+  for (size_t i = 0; i < strlen(password); i++) {
     switch (password[i]) {
       case '#': // damned octothorpe
         Keyboard.press(KEY_RIGHT_ALT);
