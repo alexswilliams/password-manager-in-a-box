@@ -1,8 +1,5 @@
 #include <Keyboard.h>
-
-const char* PASS1 = "...";
-const char* PASS2 = "....";
-const char* PASS3 = ".....";
+#include "pass.h"
 
 const int LEFT_BUTTON = 2;
 const int MIDL_BUTTON = 3;
