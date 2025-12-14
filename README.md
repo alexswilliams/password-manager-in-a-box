@@ -26,3 +26,7 @@ sudo ln -s \
     ${WHEREVER}/Caterina-Bootloader/Built\ Firmwares/Caterina-Micro.hex \
     /usr/share/arduino/hardware/arduino/avr/bootloaders/caterina/Caterina-Micro.hex
 ```
+
+### Circuit
+
+![Circuit diagram showing green LED connecting between pin D23 and Ground; and push buttons connecting between ground and D2, D3 and D4.](./circuit.png)
